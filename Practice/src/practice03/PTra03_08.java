@@ -35,6 +35,10 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		 money = 1000 - num;
+		 System.out.println(num);
+			 
+		 
 
 	}
 }
