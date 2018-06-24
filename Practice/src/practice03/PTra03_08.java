@@ -35,10 +35,18 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-		 money = 1000 - num;
-		 System.out.println(num);
-			 
-		 
-
+		 int orenge = 150 ;
+		 int apple = 160 ;
+		 int coffee = 200 ;
+		 switch(num) {
+		 	case 1 :
+		 		System.out.println(money - orenge);
+		 		break;
+		 	case 2 :
+		 		System.out.println(money - apple);
+		 		break ;
+		 	case 3 :
+		 		System.out.println(money - coffee);
+		 }
 	}
 }
