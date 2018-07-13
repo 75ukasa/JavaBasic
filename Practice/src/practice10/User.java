@@ -15,13 +15,13 @@ public class User {
 	 * 		なし
 	 */
 	
-		int userId = 101 ;
+		int userId ;
 	
-		String userNm = "リゾーム太郎" ;
+		String userNm ;
 
-		String mail = "rhizome@hoge.com" ;
+		String mail ;
 	
-		String password = "1qazxcv" ;
+		String password ;
 	
 
 
