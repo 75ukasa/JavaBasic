@@ -36,7 +36,7 @@ public class PTra13_04 {
 				System.out.println(s.getName() + "は" + h.getName()+ "との戦闘に勝利した");
 				break;
 			}
-			
+
 			if(s.damage(h.attack())) {
 					System.out.println(h.getName()+ "は" + s.getName() + "との戦闘に勝利した");
 					break;

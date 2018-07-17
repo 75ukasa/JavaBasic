@@ -40,7 +40,6 @@ public class Item {
 
 	public Item(String name , int additionalDamage) {
 		this.name = name;
-
 		this. additionalDamage  =  additionalDamage;
 
 	}
