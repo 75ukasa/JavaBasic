@@ -17,7 +17,7 @@ public class PTra17_02 {
 		}
 	}
 
-	public static void dispInput() {
+	public static void dispInput()throws Exception{
 
 		System.out.println("文字を入力してください");
 
@@ -25,8 +25,14 @@ public class PTra17_02 {
 		 * 以下の処理はコンパイルエラーになります。
 		 * ★ 適切な修正を行い、コンパイルエラーをなくしてください
 		 */
-		String line = ThrowExceptionUtil.inputValue();
+
+			String line = ThrowExceptionUtil.inputValue();
+
 
 		System.out.println(line);
+
+
+
+
 	}
 }
